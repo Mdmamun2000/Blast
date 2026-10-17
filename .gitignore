@@ -2,3 +2,5 @@
 sender
 receiver
 *.bin
+failures/
+*.part

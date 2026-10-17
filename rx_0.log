@@ -1,11 +1,91 @@
 receiver listening on UDP port 9500 (max M = 10000, loss=0%)
-FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=1000, 23438 records
-DISCONNECT: 23438/23438 records, 1477 data packets received, 0 duplicate records, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
-FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=1000, 23438 records
-DISCONNECT: 23438/23438 records, 1477 data packets received, 0 duplicate records, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
-FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=1000, 23438 records
-DISCONNECT: 23438/23438 records, 1477 data packets received, 0 duplicate records, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
-FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=1000, 23438 records
-DISCONNECT: 23438/23438 records, 1477 data packets received, 0 duplicate records, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
-FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=1000, 23438 records
-DISCONNECT: 23438/23438 records, 1477 data packets received, 0 duplicate records, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=500, 46876 records
+DISCONNECT: 46876/46876 records, 3042 data packets received, 0 duplicate records, 1912 disk writes, 94 REC_MISS sent, receiver-side garbler dropped 0 of 95
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=500, 46876 records
+DISCONNECT: 46876/46876 records, 3047 data packets received, 0 duplicate records, 2397 disk writes, 94 REC_MISS sent, receiver-side garbler dropped 0 of 95
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=500, 46876 records
+DISCONNECT: 46876/46876 records, 3031 data packets received, 0 duplicate records, 1870 disk writes, 94 REC_MISS sent, receiver-side garbler dropped 0 of 95
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=500, 46876 records
+DISCONNECT: 46876/46876 records, 3031 data packets received, 0 duplicate records, 2024 disk writes, 94 REC_MISS sent, receiver-side garbler dropped 0 of 95
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=500, 46876 records
+DISCONNECT: 46876/46876 records, 3032 data packets received, 0 duplicate records, 1697 disk writes, 94 REC_MISS sent, receiver-side garbler dropped 0 of 95
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=2000, 46876 records
+DISCONNECT: 46876/46876 records, 2962 data packets received, 0 duplicate records, 1859 disk writes, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=2000, 46876 records
+DISCONNECT: 46876/46876 records, 2963 data packets received, 0 duplicate records, 1497 disk writes, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=2000, 46876 records
+DISCONNECT: 46876/46876 records, 2964 data packets received, 0 duplicate records, 1699 disk writes, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=2000, 46876 records
+DISCONNECT: 46876/46876 records, 2960 data packets received, 0 duplicate records, 1501 disk writes, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=2000, 46876 records
+DISCONNECT: 46876/46876 records, 2965 data packets received, 0 duplicate records, 1609 disk writes, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=10000, 46876 records
+DISCONNECT: 46876/46876 records, 2937 data packets received, 0 duplicate records, 1537 disk writes, 5 REC_MISS sent, receiver-side garbler dropped 0 of 6
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=10000, 46876 records
+DISCONNECT: 46876/46876 records, 2939 data packets received, 0 duplicate records, 1496 disk writes, 5 REC_MISS sent, receiver-side garbler dropped 0 of 6
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=10000, 46876 records
+DISCONNECT: 46876/46876 records, 2939 data packets received, 0 duplicate records, 1739 disk writes, 5 REC_MISS sent, receiver-side garbler dropped 0 of 6
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=10000, 46876 records
+DISCONNECT: 46876/46876 records, 2937 data packets received, 0 duplicate records, 1959 disk writes, 5 REC_MISS sent, receiver-side garbler dropped 0 of 6
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=256, M=10000, 46876 records
+DISCONNECT: 46876/46876 records, 2938 data packets received, 0 duplicate records, 2082 disk writes, 5 REC_MISS sent, receiver-side garbler dropped 0 of 6
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=500, 23438 records
+DISCONNECT: 23438/23438 records, 1536 data packets received, 0 duplicate records, 1033 disk writes, 47 REC_MISS sent, receiver-side garbler dropped 0 of 48
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=500, 23438 records
+DISCONNECT: 23438/23438 records, 1532 data packets received, 0 duplicate records, 1104 disk writes, 47 REC_MISS sent, receiver-side garbler dropped 0 of 48
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=500, 23438 records
+DISCONNECT: 23438/23438 records, 1533 data packets received, 0 duplicate records, 902 disk writes, 47 REC_MISS sent, receiver-side garbler dropped 0 of 48
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=500, 23438 records
+DISCONNECT: 23438/23438 records, 1521 data packets received, 0 duplicate records, 953 disk writes, 47 REC_MISS sent, receiver-side garbler dropped 0 of 48
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=500, 23438 records
+DISCONNECT: 23438/23438 records, 1522 data packets received, 0 duplicate records, 916 disk writes, 47 REC_MISS sent, receiver-side garbler dropped 0 of 48
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=2000, 23438 records
+DISCONNECT: 23438/23438 records, 1483 data packets received, 0 duplicate records, 713 disk writes, 12 REC_MISS sent, receiver-side garbler dropped 0 of 13
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=2000, 23438 records
+DISCONNECT: 23438/23438 records, 1482 data packets received, 0 duplicate records, 802 disk writes, 12 REC_MISS sent, receiver-side garbler dropped 0 of 13
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=2000, 23438 records
+DISCONNECT: 23438/23438 records, 1481 data packets received, 0 duplicate records, 794 disk writes, 12 REC_MISS sent, receiver-side garbler dropped 0 of 13
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=2000, 23438 records
+DISCONNECT: 23438/23438 records, 1485 data packets received, 0 duplicate records, 782 disk writes, 12 REC_MISS sent, receiver-side garbler dropped 0 of 13
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=2000, 23438 records
+DISCONNECT: 23438/23438 records, 1481 data packets received, 0 duplicate records, 800 disk writes, 12 REC_MISS sent, receiver-side garbler dropped 0 of 13
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=10000, 23438 records
+DISCONNECT: 23438/23438 records, 1470 data packets received, 0 duplicate records, 800 disk writes, 3 REC_MISS sent, receiver-side garbler dropped 0 of 4
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=10000, 23438 records
+DISCONNECT: 23438/23438 records, 1472 data packets received, 0 duplicate records, 866 disk writes, 3 REC_MISS sent, receiver-side garbler dropped 0 of 4
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=10000, 23438 records
+DISCONNECT: 23438/23438 records, 1472 data packets received, 0 duplicate records, 1019 disk writes, 3 REC_MISS sent, receiver-side garbler dropped 0 of 4
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=10000, 23438 records
+DISCONNECT: 23438/23438 records, 1469 data packets received, 0 duplicate records, 938 disk writes, 3 REC_MISS sent, receiver-side garbler dropped 0 of 4
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=10000, 23438 records
+DISCONNECT: 23438/23438 records, 1469 data packets received, 0 duplicate records, 1001 disk writes, 3 REC_MISS sent, receiver-side garbler dropped 0 of 4
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=500, 11719 records
+DISCONNECT: 11719/11719 records, 1494 data packets received, 0 duplicate records, 785 disk writes, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=500, 11719 records
+DISCONNECT: 11719/11719 records, 1491 data packets received, 0 duplicate records, 960 disk writes, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=500, 11719 records
+DISCONNECT: 11719/11719 records, 1490 data packets received, 0 duplicate records, 875 disk writes, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=500, 11719 records
+DISCONNECT: 11719/11719 records, 1492 data packets received, 0 duplicate records, 802 disk writes, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=500, 11719 records
+DISCONNECT: 11719/11719 records, 1496 data packets received, 0 duplicate records, 867 disk writes, 24 REC_MISS sent, receiver-side garbler dropped 0 of 25
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=2000, 11719 records
+DISCONNECT: 11719/11719 records, 1474 data packets received, 0 duplicate records, 794 disk writes, 6 REC_MISS sent, receiver-side garbler dropped 0 of 7
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=2000, 11719 records
+DISCONNECT: 11719/11719 records, 1475 data packets received, 0 duplicate records, 916 disk writes, 6 REC_MISS sent, receiver-side garbler dropped 0 of 7
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=2000, 11719 records
+DISCONNECT: 11719/11719 records, 1472 data packets received, 0 duplicate records, 833 disk writes, 6 REC_MISS sent, receiver-side garbler dropped 0 of 7
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=2000, 11719 records
+DISCONNECT: 11719/11719 records, 1473 data packets received, 0 duplicate records, 839 disk writes, 6 REC_MISS sent, receiver-side garbler dropped 0 of 7
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=2000, 11719 records
+DISCONNECT: 11719/11719 records, 1473 data packets received, 0 duplicate records, 744 disk writes, 6 REC_MISS sent, receiver-side garbler dropped 0 of 7
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=10000, 11719 records
+DISCONNECT: 11719/11719 records, 1470 data packets received, 0 duplicate records, 857 disk writes, 2 REC_MISS sent, receiver-side garbler dropped 0 of 3
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=10000, 11719 records
+DISCONNECT: 11719/11719 records, 1469 data packets received, 0 duplicate records, 614 disk writes, 2 REC_MISS sent, receiver-side garbler dropped 0 of 3
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=10000, 11719 records
+DISCONNECT: 11719/11719 records, 1469 data packets received, 0 duplicate records, 953 disk writes, 2 REC_MISS sent, receiver-side garbler dropped 0 of 3
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=10000, 11719 records
+DISCONNECT: 11719/11719 records, 1468 data packets received, 0 duplicate records, 1057 disk writes, 2 REC_MISS sent, receiver-side garbler dropped 0 of 3
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=1024, M=10000, 11719 records
+DISCONNECT: 11719/11719 records, 1468 data packets received, 0 duplicate records, 807 disk writes, 2 REC_MISS sent, receiver-side garbler dropped 0 of 3

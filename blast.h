@@ -6,16 +6,21 @@
 
 #define PKT_FILE_HDR       1
 #define PKT_FILE_HDR_ACK   2
-#define PKT_DATA           3   // used from Step 3
-#define PKT_IS_BLAST_OVER  4   // Step 4
-#define PKT_REC_MISS       5   // Step 4
+#define PKT_DATA           3
+#define PKT_IS_BLAST_OVER  4
+#define PKT_REC_MISS       5
 #define PKT_DISCONNECT     6
 #define PKT_DISCONNECT_ACK 7
 
 #define MAX_SEGS           16
-// macOS caps UDP datagrams at 9216 bytes by default, so keep data <= 8192.
-// Records per packet = min(16, MAX_DATA_BYTES / record_size)  (1024B records -> 8)
+// Records per packet = min(16, MAX_DATA_BYTES / record_size).
+// Linux allows UDP datagrams up to ~64 KB, so 16 x 1024-byte records fit.
+// macOS caps datagrams at 9216 bytes by default, so there 1024-byte records -> 8 per packet.
+#ifdef __APPLE__
 #define MAX_DATA_BYTES     8192
+#else
+#define MAX_DATA_BYTES     (16 * 1024)
+#endif
 #define MAX_PKT            (2 + MAX_SEGS * 8 + MAX_DATA_BYTES)
 #define MAX_NAME           256
 #define MAX_RECS_PER_PKT   16
@@ -27,7 +32,7 @@ struct __attribute__((packed)) file_hdr {
     uint32_t file_size;            // bytes
     uint16_t record_size;          // 256, 512 or 1024
     uint32_t blast_size;           // M, records per blast (proposed)
-    char     filename[MAX_NAME];   // name to store under at the receiver
+    char     filename[MAX_NAME];   // name the receiver stores the file under
 };
 
 struct __attribute__((packed)) file_hdr_ack {
@@ -48,7 +53,7 @@ struct __attribute__((packed)) seg {
     uint32_t end_rec;              // last record of segment (inclusive)
 };
 
-// ---- Step 4: reliability ----
+// ---- reliability ----
 #define MAX_MISS_RANGES    512   // max ranges reported in one REC_MISS
 
 struct __attribute__((packed)) is_blast_over {
@@ -64,7 +69,7 @@ struct __attribute__((packed)) rec_miss {
     uint16_t nranges;              // 0 = nothing missing. Followed by nranges x struct seg.
 };
 
-// ---- Step 5: disconnect ----
+// ---- disconnect ----
 #define LINGER_SEC         3     // receiver keeps answering this long after DISCONNECT
 
 struct __attribute__((packed)) ctl {      // DISCONNECT and DISCONNECT_ACK carry only a type
