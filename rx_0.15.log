@@ -1,0 +1,13 @@
+receiver listening on UDP port 9500 (max M = 10000, loss=15%)
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=1000, 23438 records
+duplicate FILE_HDR, re-sending ACK
+DISCONNECT: 23438/23438 records, 1477 data packets received, 0 duplicate records, 111 REC_MISS sent, receiver-side garbler dropped 33 of 113
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=1000, 23438 records
+DISCONNECT: 23438/23438 records, 1477 data packets received, 0 duplicate records, 81 REC_MISS sent, receiver-side garbler dropped 11 of 82
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=1000, 23438 records
+DISCONNECT: 23438/23438 records, 1477 data packets received, 0 duplicate records, 80 REC_MISS sent, receiver-side garbler dropped 8 of 81
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=1000, 23438 records
+duplicate FILE_HDR, re-sending ACK
+DISCONNECT: 23438/23438 records, 1477 data packets received, 0 duplicate records, 78 REC_MISS sent, receiver-side garbler dropped 9 of 80
+FILE_HDR: 'recv_test12mb.bin' 12000021 bytes, record_size=512, M=1000, 23438 records
+DISCONNECT: 23438/23438 records, 1477 data packets received, 0 duplicate records, 82 REC_MISS sent, receiver-side garbler dropped 12 of 83
